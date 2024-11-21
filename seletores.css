@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    width: 1400px;
+    height: 100vh;
+}
+
+div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.vermelho{
+    background-color: red;
+    border: 2px solid red;
+}
+
+.azul{
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+}
+
+.verde{
+    background-color: green;
+    border: 2px solid green;
+}
+
+.amarelo{
+    background-color: yellow;
+    border: 2px solid yellow;
+}
+
+#borda_preta{
+    border: 2px solid black;
+}
+
+#div_maior{
+    width: 810px;
+    height: 200px;
+}
